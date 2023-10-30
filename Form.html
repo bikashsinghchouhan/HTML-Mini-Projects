@@ -1,0 +1,43 @@
+<html>
+<head><title>Form</title>
+<style>
+body{
+    align-items: center;
+    background-color: rgb(180, 155, 204);
+}
+</style>
+</head>
+<body><form>
+
+</form action="/action_page.php"><fieldset>
+    
+    <legend style="text-align: center;color:rgb(26, 15, 88)"><h1>Enter Your details</h1></legend>
+        <br><br>
+<label for="fname">First Name:</label> <input type="text"placeholder="enter here"required><br><br>
+Last Name : <input type="text"placeholder="enter here"><br><br>
+Phone No. :<input type="tel"Name="phone"placeholder="0123456789"pattern="[0-9]{8}"required><br><br>
+Enter DOB : <input type="date"><br><br>
+
+<label for="language"Value="qualification">Higher Qualificaton :
+    <Select name="language">
+        <option >10th</option>
+        <option value="12th">12th</option>
+        <option value="grad"selected>Graduation </option>
+        
+   </Select><br><br>
+   <label for="lan"value="language">Language Known : </label>
+   CSS <input type="checkbox"value="CSS">
+   HTML <input type="checkbox"value="CSS">
+   JAVA <input type="checkbox"value="CSS">
+   C++ <input type="checkbox"value="CSS"><br><br>
+   Upload your documents :<input type="file">
+
+
+
+
+<br><br><input type="submit"value="Submit"onclick="alert('form submitted sucessfully')">
+<input type="reset">
+</fieldset>
+</form>
+</body>
+</html>

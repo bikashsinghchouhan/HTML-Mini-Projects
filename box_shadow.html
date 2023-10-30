@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head><title>box design</title>
+<link rel="stylesheet" type="text/css" href="stylesheet4.css">
+<style>
+body{
+background-color: black;
+align-items: center;
+justify-content: center;
+
+}
+.box1{
+    margin: 10%;
+    
+    height:500px;
+    background-color: hsl(273, 37%, 66%);
+    border-radius:18px;
+    align-items: center;
+justify-content: center;
+
+}
+.box2{
+    margin:0px;
+    width:30%;
+    height:100%;
+    background-color: hsl(272, 79%, 57%);
+    border-radius:18px;
+    text-align: center; 
+
+}
+.box3{
+    width:70%;
+    height:100%;
+    background-color: hsl(270, 58%, 95%);
+    border-radius:18px;
+    text-align: center; 
+    float:right;
+
+}
+.fname{
+    width:300px;
+    height:30px;
+    background-color:solid rgb(95, 223, 176) ;
+    border-radius:5px;
+    box-shadow:insect 2px 2px 2px red  ;
+}
+#lname{
+    width:300px;
+    height:80px;
+    background-color:solid rgb(122, 194, 28) ;
+    border-radius:5px;
+    box-shadow:insect 4px 4px 4px 4px rgb(225, 4, 4)  ;
+}
+</style>
+</head>
+<body>
+<div class="box1">
+    <div class="box2">
+        <p>Contact info.</p>
+    </div>
+    <div class="box3">
+        <form action="/action_page.php">
+            <h2>Send us Message</h2>
+            <label for="fname">First Name :</label>
+            <input type="text" class="fname" name="firstname" placeholder="Your First Name..">
+        <br><br>
+
+            <level for="fname">Last Name :</level>
+            <input type="text" class="fname" placeholder="Your Last Name"><br><br>
+            <level for="fname">  Gmail     : </level>
+             <input type=" text" class="fname"placeholder="Mail"><br><br>
+            <level for="lname">Type Message :</level>
+            <input type="text"id="lname"placeholder="type your messsage here..">
+			
+			
+			<br><br>
+			<input type="submit"value="submit">
+
+           
+    
+        </form>
+    </div>
+</div>
+</body>
+</html>
